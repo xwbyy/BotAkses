@@ -1,0 +1,19 @@
+{
+  "name": "vynaa-ip-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for IP management with limits",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chrono-node": "^2.6.2",
+    "dayjs": "^1.11.10",
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
